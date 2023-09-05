@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/AgendaTele.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Agenda Telefônica</title>
 </head>
+
 <body>
+    <div id="divMain">
     <h1 id="tituloPrin">Agenda Telefônica</h1>
     <div id="divInput">
-    <input type="text" placeholder="Nome Completo" id="nome">
-    <input type="number" placeholder="Telefone Fixo" id="teleFixo">
-    <input type="number" placeholder="Telefone Celular" id="teleCell">
-    <input type="text" placeholder="URL da Foto" id="Foto">
-    <input type="date" id="data">
-    <input type="text" placeholder="E-mail" id="email">
-    <input type="number" placeholder="CEP" id="cep">
-    <input type="text" placeholder="Cidade" id="cidade">
-    <input type="text" placeholder="@Instagram" id="insta">
-    <input type="text" placeholder="@Github" id="gitHub">
-    <button id="addBotão">Adicionar Contato</button>
+        <input type="text" placeholder="Nome Completo" id="nome">
+        <input type="tel" maxlength="11" placeholder="Telefone Fixo" id="teleFixo">
+        <input type="tel" maxlength="11" placeholder="Telefone Celular"  id="teleCell" required>
+        <input type="text" placeholder="URL da Foto" id="Foto">
+        <input type="date" id="data">
+        <input type="text" placeholder="E-mail" id="email">
+        <input type="number" maxlength="8" placeholder="CEP" id="cep">
+        <input type="text" placeholder="Cidade" id="cidade">
+        <input type="text" placeholder="@Instagram" id="insta">
+        <input type="text" placeholder="@Github" id="gitHub">
+
+        <button id="addBotao" onclick="comporUsers()" type="button">Adicionar Contato</button>
+
+        <div id="msg"></div>
+
     </div>
+
+    
+        <div id="cardApa" class="cardApa" onclick="mostrarUsersCompleto()">
+
+        </div>
+
+        <div id="cardApa2" class="hidden">
+
+        </div>
+    </div>
+
     <script src="assets/js/AgendaTele.js"></script>
 </body>
+
 </html>

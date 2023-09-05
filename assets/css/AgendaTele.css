@@ -1,0 +1,114 @@
+body {
+    background-color: #e8e8e8;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-left: 28rem;
+}
+
+#nome {
+    margin-left: 3.5rem;
+    height: 1.5rem;
+}
+
+#teleFixo {
+    height: 1.5rem;
+}
+
+#teleCell {
+    height: 1.5rem;
+}
+
+#Foto {
+    height: 1.5rem;
+}
+
+#data {
+    height: 1.5rem;
+}
+
+#email {
+    height: 1.5rem;
+}
+
+#cep {
+    height: 1.5rem;
+}
+
+#cidade {
+    margin-left: 20rem;
+    height: 1.5rem;
+    margin-top: 5px;
+}
+
+#insta {
+    height: 1.5rem;
+}
+
+#gitHub {
+    height: 1.5rem;
+}
+
+#addBotao {
+    background-color: rgb(22, 22, 248);
+    color: white;
+    border: none;
+    height: 1.8rem;
+    width: 8rem;
+}
+
+.erro {
+    color: red;
+    font-size: 0.8rem;
+    margin-left: 3.5rem;
+}
+
+.sucesso {
+    color: green;
+    font-size: 0.8rem;
+    margin-left: 3.5rem;
+}
+
+.cardApa {
+    width: 30rem;
+    height: 13rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: 24rem;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#cardApa2 {
+    width: 20rem;
+    height: 36rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: 56rem;
+    border-radius: 8px;
+    margin-top: -12.8rem;
+}
+
+.imgFoto {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+}
+
+#nomeApa {
+    margin-left: 110px;
+}
+
+#logoZap {
+    margin-left: 130px;
+}
